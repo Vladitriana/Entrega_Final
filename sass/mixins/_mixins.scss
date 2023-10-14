@@ -1,0 +1,10 @@
+@mixin flex-header{
+    width: 90%;
+    margin:0 auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    max-width: 1200px;
+    color: #fff;
+}

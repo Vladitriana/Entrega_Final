@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: rgb(56, 45, 83);
+
+    .nav__container{
+        width: 90%;
+        margin:0 auto;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        max-width: 1200px;
+        color: #fff;
+    }
+
+    .nav__link:first-of-type{
+        margin-left: auto;
+    }
+
+    .nav__link{
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: lightcoral;
+        }       
+    }   
+}
+
+section {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-family: 'Poppins', sans-serif;
+
+    .hero__img{
+        width: 100%;
+        display: block;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero__texts{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        text-align: center;
+
+        .hero__title{
+            font-size: 4.5 rem;
+            font-family: 'Poppins', sans-serif;
+            color: $colorDarkblue;
+        }
+
+        .hero__cta{
+            background-color: rgb(56, 45, 83);
+            color: #fff;
+            text-decoration: none;
+            padding: 1em 3em;
+            border-radius: 2em;
+            align-self: center;
+            &:hover{
+                color: lightcoral;
+            }
+        }
+
+        .hero__parrafo{
+            font-weight: bold;
+            color: rgb(56, 49, 49);
+        }
+    }
+}
+
+@media (min-width:768px){
+    section{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero__picture{
+        order: 1;
+        width: 50%;
+    }
+
+    .hero__img{
+        max-width: none;
+    }
+
+    .hero__texts{
+        width: 45%;
+        text-align: left;
+    }
+
+    .hero__cta{
+        align-self: flex-start;
+    }
+}
+
