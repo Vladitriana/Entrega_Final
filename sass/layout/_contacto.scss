@@ -4,12 +4,29 @@
     box-sizing: border-box;
 }
 
+#opciones{
+    font-weight: bold;  
+    
+    a{
+        &:hover{
+            color: lightcoral;
+        }
+    }
+}
+
+.card__contact{
+     width: 80%;
+     display: block;
+     max-width: 800px;
+     margin: 0 auto;
+}
+
 .form__register {
     text-align: center;
     justify-content: center;
-    width: 400px;
-    display: grid;
-    background: #24303c;
+    width: 300px;
+    display: block;
+    background: rgb(56, 45, 83);
     padding: 30px;
     gap: 10px;
     margin: auto;
@@ -26,50 +43,31 @@
 
     .controls{
         width: 100%;
-        background: #24303c;
+        background: $colorLightgray;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
-        border: 1px solid #1f53c5;
+        border: 1px solid $colorLightgray;
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
-        color: #fff;
-    }
-
-    .parrafo{
-        height: 40px;
-        text-align: center;
-        font-size: 14px;
-        line-height: 10px;
+        color: $colorDarkblue;
     }
 
     .botons{
         width: 100%;
-        background: #1f53c5;
+        background: #7c68b9;
         border: none;
         padding: 12px;
-        color: white;
+        color: #fff;
         // margin: 16px 0;
         font-size: 16px;
+        &:hover{
+            color: lightcoral;
+        }  
     }
-
-    .form-check{
-        margin-bottom: 20px;
-        justify-items: auto;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        margin-left: 60px;
-        padding-block: 10px;
-    }
-
-    .form-check-label{
-       display: grid;
-    }
-
+    
     .nav__link{
         color: #fff;
         display: grid;
     }
 }
-

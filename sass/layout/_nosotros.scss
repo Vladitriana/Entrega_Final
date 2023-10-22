@@ -12,12 +12,6 @@ body{
     align-items: center;
     font-family: 'Poppins', sans-serif;
 
-    body{
-        .nav__container{
-             @include flex-header
-        }
-     }
-
     .container{
         width: 100%;
         display: flex;

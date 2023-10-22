@@ -8,27 +8,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-nav {
-  background-color: rgb(56, 45, 83);
+#opciones {
+  font-weight: bold;
 }
-nav .nav__container {
-  width: 90%;
-  margin: 0 auto;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  max-width: 1200px;
-  color: #fff;
-}
-nav .nav__link:first-of-type {
-  margin-left: auto;
-}
-nav .nav__link {
-  color: #fff;
-  text-decoration: none;
-}
-nav .nav__link:hover {
+#opciones a:hover {
   color: lightcoral;
 }
 
@@ -102,12 +85,26 @@ section .hero__texts .hero__parrafo {
   box-sizing: border-box;
 }
 
+#opciones {
+  font-weight: bold;
+}
+#opciones a:hover {
+  color: lightcoral;
+}
+
+.card__contact {
+  width: 80%;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .form__register {
   text-align: center;
   justify-content: center;
-  width: 400px;
-  display: grid;
-  background: #24303c;
+  width: 300px;
+  display: block;
+  background: rgb(56, 45, 83);
   padding: 30px;
   gap: 10px;
   margin: auto;
@@ -123,40 +120,25 @@ section .hero__texts .hero__parrafo {
 }
 .form__register .controls {
   width: 100%;
-  background: #24303c;
+  background: hsl(0, 0%, 98%);
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 1px solid hsl(0, 0%, 98%);
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: #fff;
-}
-.form__register .parrafo {
-  height: 40px;
-  text-align: center;
-  font-size: 14px;
-  line-height: 10px;
+  color: hsl(234, 12%, 34%);
 }
 .form__register .botons {
   width: 100%;
-  background: #1f53c5;
+  background: #7c68b9;
   border: none;
   padding: 12px;
-  color: white;
+  color: #fff;
   font-size: 16px;
 }
-.form__register .form-check {
-  margin-bottom: 20px;
-  justify-items: auto;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  margin-left: 60px;
-  padding-block: 10px;
-}
-.form__register .form-check-label {
-  display: grid;
+.form__register .botons:hover {
+  color: lightcoral;
 }
 .form__register .nav__link {
   color: #fff;
@@ -169,24 +151,15 @@ section .hero__texts .hero__parrafo {
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: hsl(0, 0%, 98%);
-  margin-left: 30px;
+#opciones {
+  font-weight: bold;
 }
-body .nav__container {
-  width: 90%;
-  margin: 0 auto;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  max-width: 1200px;
-  color: #fff;
+#opciones a:hover {
+  color: lightcoral;
 }
 
 .card {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin-top: auto;
   margin: auto 0;
@@ -293,47 +266,33 @@ body .nav__container {
   box-sizing: border-box;
 }
 
-body .nav__container {
-  width: 90%;
-  margin: 0 auto;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  max-width: 1200px;
-  color: #fff;
+#opciones {
+  font-weight: bold;
+}
+#opciones a:hover {
+  color: lightcoral;
 }
 
-.gallery {
-  max-width: 1200px;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+#carouselExampleIndicators {
   margin-top: 40px;
-  padding: 20px 0;
-  display: block;
-  gap: 1.5em;
-  grid-auto-rows: 300px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-.gallery .gallery__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 100vh;
 }
 
-@media (max-width: 805px) {
-  .gallery {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .nav__container {
-    font-size: x-small;
-    text-align: right;
-    justify-content: center;
-  }
+.card__encabezado {
+  color: rgb(124, 115, 115);
+  text-align: center;
+  margin-top: 40px;
 }
+
+.card__imagen {
+  width: 100%;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -347,16 +306,6 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-}
-body body .nav__container {
-  width: 90%;
-  margin: 0 auto;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-  max-width: 1200px;
-  color: #fff;
 }
 body .container {
   width: 100%;

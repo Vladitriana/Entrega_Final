@@ -9,32 +9,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-nav{
-    background-color: rgb(56, 45, 83);
-
-    .nav__container{
-        width: 90%;
-        margin:0 auto;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        gap: 1em;
-        max-width: 1200px;
-        color: #fff;
-    }
-
-    .nav__link:first-of-type{
-        margin-left: auto;
-    }
-
-    .nav__link{
-        color: #fff;
-        text-decoration: none;
+#opciones{
+    font-weight: bold;  
+    
+    a{
         &:hover{
             color: lightcoral;
-        }       
-    }   
-}
+        }
+    }
+ }
 
 section {
     max-width: 1200px;
