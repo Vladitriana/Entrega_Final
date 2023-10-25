@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
+.nav{
+    padding-top: 0px;
+}
 
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 #opciones{
-    font-weight: bold;  
+    font-weight: bold;
     
     a{
         &:hover{
@@ -68,6 +71,7 @@ section {
 }
 
 @media (min-width:768px){
+    
     section{
         flex-direction: row;
         align-items: center;
@@ -91,5 +95,9 @@ section {
     .hero__cta{
         align-self: flex-start;
     }
+
 }
 
+footer{
+    @include footer
+}
