@@ -24,13 +24,16 @@
 .card__encabezado{
     color: rgb(124, 115, 115);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .card__imagen{
-    width: 100%;
+    width: 80%;
     display: block;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
+footer{
+    @include footer
+ }

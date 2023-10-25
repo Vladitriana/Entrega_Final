@@ -13,6 +13,7 @@ body{
     font-family: 'Poppins', sans-serif;
 
     .container{
+        margin-top: 40px;
         width: 100%;
         display: flex;
         max-width: 1200px;
@@ -65,9 +66,8 @@ body{
         align-items: center;
         justify-content: space-evenly;
     }
+}
 
-    .nav__container{
-        font-size: small;
-    }
-
+footer{
+    @include footer;
 }
