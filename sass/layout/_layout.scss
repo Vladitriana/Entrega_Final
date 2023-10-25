@@ -8,6 +8,10 @@
     padding-top: 0px;
 }
 
+.hero{
+    gap: 5px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -42,7 +46,7 @@ section {
     .hero__texts{
         display: flex;
         flex-direction: column;
-        gap: 1em;
+        gap: 2px;
         text-align: center;
 
         .hero__title{
